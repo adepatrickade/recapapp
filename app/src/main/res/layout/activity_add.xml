@@ -28,18 +28,18 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:id="@+id/datepik"
-                android:hint="Date " />
+                android:hint="@string/date" />
 
             <AutoCompleteTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Fournisseur"
+                android:hint="@string/fournisseur"
                 android:id="@+id/autoCompleteFour" />
 
             <AutoCompleteTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Besoin"
+                android:hint="@string/besoin"
                 android:id="@+id/autoCompleteBesoin" />
 
 
@@ -51,7 +51,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
-                    android:hint="Prix Unitaire"
+                    android:hint="@string/prix_unitaire"
                     android:id="@+id/PU" />
             </android.support.design.widget.TextInputLayout>
 
@@ -63,7 +63,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
-                    android:hint="Quantité"
+                    android:hint="@string/quantit"
                     android:id="@+id/QT" />
             </android.support.design.widget.TextInputLayout>
 
@@ -75,7 +75,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Marque"
+                    android:hint="@string/marque"
                     android:id="@+id/marq" />
             </android.support.design.widget.TextInputLayout>
 
@@ -86,19 +86,19 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Autre précision"
+                    android:hint="@string/autre_pr_cision"
                     android:id="@+id/autre" />
             </android.support.design.widget.TextInputLayout>
 
             <Button
-                    android:text="Ajouter"
+                    android:text="@string/ajouter"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/AjouterEn"
                     android:layout_weight="1" />
 
                 <Button
-                    android:text="Enregistrer"
+                    android:text="@string/enregistrer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/EnregistrerEn"

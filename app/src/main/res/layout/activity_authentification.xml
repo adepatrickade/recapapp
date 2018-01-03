@@ -12,15 +12,17 @@
 
 
     <android.support.design.widget.TextInputLayout
-    android:layout_width="match_parent"
-    android:layout_marginTop="100dp"
-    android:layout_height="wrap_content">
+        android:id="@+id/visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
         <AutoCompleteTextView
             android:id="@+id/iden"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Identifiant"/>
-</android.support.design.widget.TextInputLayout>
+            android:hint="@string/identifiant" />
+    </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -31,12 +33,12 @@
             android:id="@+id/pass"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="Password"/>
+            android:hint="@string/password"/>
     </android.support.design.widget.TextInputLayout>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Connexion"
+        android:text="@string/connexion"
         android:layout_marginTop="250dp"
         android:id="@+id/connexion"/>
 </RelativeLayout>
