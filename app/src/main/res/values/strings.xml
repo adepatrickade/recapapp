@@ -12,6 +12,12 @@
     <string name="title_activity_demande">Demande</string>
     <string name="dialog_message">Demande</string>
     <string name="dialog_title">Récapitulatif</string>
+    <string name="sortie">Sortie</string>
+    <string name="todo">TODO</string>
+
+    <string name="entree">Entrée</string>
+    <string name="mouvements">Mouvements</string>
+    <string name="demande">Demande</string>
 
 
 
