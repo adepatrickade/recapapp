@@ -1,10 +1,23 @@
 package com.example.hp.madose;
 
+import android.content.ContentResolver;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.database.CharArrayBuffer;
+import android.database.ContentObserver;
+import android.database.Cursor;
+import android.database.DataSetObserver;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class Variation extends AppCompatActivity {
 
@@ -12,11 +25,16 @@ public class Variation extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_variation);
-        TextView entrees=(TextView)findViewById(R.id.listeE);
-        TextView demande=(TextView)findViewById(R.id.listeD);
-        TextView sortie=(TextView)findViewById(R.id.listeS);
-        TextView stock=(TextView)findViewById(R.id.stock);
-        TextView demand=(TextView)findViewById(R.id.textView9);
+       TextView entrees=findViewById(R.id.listeE);
+        TextView demande=findViewById(R.id.listeD);
+        TextView sortie=findViewById(R.id.listeS);
+        TextView stock=findViewById(R.id.stock);
+        TextView demand=findViewById(R.id.textView9);
+
+
+
+
+
 
         entrees.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,7 +80,7 @@ public class Variation extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        TextView rupture=(TextView) findViewById(R.id.rupture);
+        TextView rupture= findViewById(R.id.rupture);
 
 
         rupture.setOnClickListener(new View.OnClickListener() {
@@ -73,5 +91,9 @@ public class Variation extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
+
 }
+

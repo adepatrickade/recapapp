@@ -22,10 +22,10 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="62dp"
             android:fontFamily="sans-serif"
-            android:text="@string/liste_des_entr_es"
+            android:text="Liste des entrées"
             android:textColor="@color/colorAccent"
             android:textSize="15sp"
-            android:textStyle="normal|bold" tools:targetApi="jelly_bean" />
+            android:textStyle="normal|bold" />
 
         <TextView
             android:id="@+id/listeD"
@@ -35,7 +35,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/listeS"
             android:layout_marginTop="20dp"
-            android:text="@string/co_t_total"
+            android:text="Coût Total"
             android:textColor="@color/colorAccent"
             android:textStyle="normal|bold" />
 
@@ -47,7 +47,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/listeE"
             android:layout_marginTop="12dp"
-            android:text="@string/liste_des_sorties"
+            android:text="Liste des sorties"
             android:textColor="@color/colorAccent"
             android:textStyle="normal|bold" />
 
@@ -59,7 +59,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/listeD"
             android:layout_marginTop="20dp"
-            android:text="@string/stock"
+            android:text="Stock"
             android:textColor="?android:attr/colorActivatedHighlight"
             android:textStyle="normal|bold" />
 
@@ -71,7 +71,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/stock"
             android:layout_marginTop="19dp"
-            android:text="@string/demande"
+            android:text="Demande"
             android:textColor="?android:attr/colorFocusedHighlight"
             android:textStyle="normal|bold" />
 
@@ -83,10 +83,10 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/textView9"
             android:layout_marginTop="23dp"
-            android:text="@string/v_rifier_rupture_de_stock"
+            android:text="Vérifier Rupture de Stock"
             android:textColor="?android:attr/colorFocusedHighlight"
             android:textStyle="normal|bold" />
-
+    
 
 
 

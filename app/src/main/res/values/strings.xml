@@ -39,6 +39,12 @@
     <string name="autre_pr_cision">Autre précision</string>
     <string name="ajouter">Ajouter</string>
     <string name="enregistrer">Enregistrer</string>
+    <string name="liste_des_entr_es">Liste des entrées</string>
+    <string name="co_t_total">Coût Total</string>
+    <string name="liste_des_sorties">Liste des sorties</string>
+    <string name="stock">Stock</string>
+
+    <string name="v_rifier_rupture_de_stock">Vérifier Rupture de Stock</string>
 
 
 </resources>
