@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Authentification"
+            android:name="com.example.hp.madose.Authentification"
             android:label="RecapApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Acceuil"
+            android:name="com.example.hp.madose.Acceuil"
             android:label="Accueil"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -27,42 +27,42 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Fournisseur"
+            android:name="com.example.hp.madose.Fournisseur"
             android:label="Fournisseur">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Besoin"
+            android:name="com.example.hp.madose.Besoin"
             android:label="Besoins">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Categorie"
+            android:name="com.example.hp.madose.Categorie"
             android:label="Catégories">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Employe"
+            android:name="com.example.hp.madose.Employe"
             android:label="Employé">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Departement"
+            android:name="com.example.hp.madose.Departement"
             android:label="Departement">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Entrees"
+            android:name="com.example.hp.madose.Entrees"
             android:label="@string/title_activity_entrees"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -70,7 +70,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Sorties"
+            android:name="com.example.hp.madose.Sorties"
             android:label="@string/title_activity_sorties"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -84,19 +84,19 @@
 
 
         <activity
-            android:name=".Affichage"
+            android:name="com.example.hp.madose.Affichage"
             android:label="Affichage" />
         <activity
-            android:name=".Add"
+            android:name="com.example.hp.madose.Add"
             android:label="Approvisionnement" />
         <activity
-            android:name=".Demande"
+            android:name="com.example.hp.madose.Demande"
             android:label="Demande" />
         <activity
-            android:name=".BringOut"
+            android:name="com.example.hp.madose.BringOut"
             android:label="Sortie" />
-        <activity android:name=".Variation" />
-        <activity android:name=".CoutTotalBesoin"></activity>
+        <activity android:name="com.example.hp.madose.Variation" />
+        <activity android:name="com.example.hp.madose.CoutTotalBesoin"></activity>
 
     </application>
 

@@ -1,9 +1,5 @@
 package com.example.hp.madose;
 
-import android.util.Log;
-
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 /**
  * Created by HP on 05/12/2017.
  */
