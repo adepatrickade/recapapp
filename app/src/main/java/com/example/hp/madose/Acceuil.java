@@ -230,9 +230,6 @@ public class Acceuil extends AppCompatActivity
         return true;
     }
 
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
+
 
 }
